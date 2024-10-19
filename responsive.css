@@ -1,0 +1,202 @@
+      
+@media only screen and (orientation: portrait) {
+    body{
+    /* background-color: grey; */
+    }
+
+    .main{
+        background-image: url(assets/images/PK-en-20240617-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+        background-color: black;
+        height: 70vh;
+        position: relative;
+        background-position: center center;
+        background-repeat: no-repeat;
+        /* background-size: max(1100px, 100vw); */
+        
+        
+    }
+    
+    .main > .box{
+        background-color: black;
+        width: 100%;
+        height: 70vh;
+        opacity: 60%;
+        position: absolute;
+        top: 0;
+    }
+    .s1div1{
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+        /* background-color: antiquewhite; */
+        justify-content: right;
+        margin: 6rem 0rem ;
+    
+    }
+    .footerlinks{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        gap: 1.6rem;
+        margin: 2rem 0rem;
+    }
+    .footerlinks > a{
+        color: white;
+        opacity: 70%;
+        font-size: 2rem;
+    
+    }
+}
+      /* Laptop-screen-resolutions */
+
+            /* 4k-screen */
+
+@media only screen and (max-width: 2560px) {
+    html{
+        font-size: 110%;
+    }
+}
+
+@media only screen and (max-width: 2460px) {
+    html{
+        font-size: 100%;
+    }
+}
+@media only screen and (max-width: 2260px) {
+    html{
+        font-size: 90%;
+    }
+}
+@media only screen and (max-width: 1960px) {
+    html{
+        font-size: 80%;
+    }
+}
+@media only screen and (max-width: 1760px) {
+    html{
+        font-size: 70%;
+    }
+}
+@media only screen and (max-width: 1560px) {
+    html{
+        font-size: 66%;
+    }
+}
+
+
+
+
+                /* Laptop-L */
+@media only screen and (max-width: 1440px) {
+    html{
+        font-size: 62.5%;
+    }
+}
+@media only screen and (max-width: 1360px) {
+    html{
+        font-size: 56%;
+    }
+}
+@media only screen and (max-width: 1160px) {
+    html{
+        font-size: 50%;
+    }
+}
+
+
+
+
+                /* Laptop-M */
+@media only screen and (max-width: 1024px) {
+    html{
+        font-size: 44%;
+    }
+ 
+}
+
+@media only screen and (max-width: 968px) {
+    html{
+        font-size: 40%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* Tablet-screen-resolutions */
+
+
+@media only screen and (max-width: 768px) {
+    html{
+        font-size: 39%;
+    }
+}
+/* 
+@media only screen and (max-width: 668px) {
+    html{
+        font-size: 28%;
+    }
+        
+
+}
+@media only screen and (max-width: 570px) {
+    html{
+        font-size: 25.5%;
+    }
+}
+@media only screen and (max-width: 480px) {
+    html{
+        font-size: 24%;
+    }        
+}
+
+@media only screen and (max-width: 440px) {
+    html{
+        font-size: 23%;
+    }    
+}
+
+
+
+ */
+
+
+
+
+
+
+
+
+
+        /* Mobiles-screen-resolutions */
+                /* Mobile-L */
+/* @media only screen and (max-width: 425px) {
+    html{
+        font-size: 22%;
+    } 
+} */
+
+                /* Mobile-M */
+/* @media only screen and (max-width: 375px) {
+    html{
+        font-size: 20%;
+    } 
+} */
+
+                /* Mobile-S */
+/* @media only screen and (max-width: 330px) {
+    html{
+        font-size: 17%;
+    } 
+}     */
